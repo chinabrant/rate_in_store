@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - rate_in_store (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - rate_in_store (from `.symlinks/plugins/rate_in_store/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  rate_in_store:
+    :path: ".symlinks/plugins/rate_in_store/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  rate_in_store: 18a1dd07641e978c2084507dc43828737cd380fe
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
