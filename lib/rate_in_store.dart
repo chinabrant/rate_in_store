@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -15,11 +14,11 @@ class RateInStore {
     return version;
   }
 
-  static void rate({@required String appID}) async {
+  static void rate({String iOSAppID, String androidAppID}) async {
     if (Platform.isIOS) {
-      _channel.invokeMethod('rate', appID);
+      _channel.invokeMethod('rate', iOSAppID);
     } else if (Platform.isAndroid) {
-      launch('market://details?id=$appID');
+      launch('market://details?id=$androidAppID');
     }    
   }
 }

@@ -5,7 +5,7 @@ A Flutter rate plugin.
 # How to use
 
 ```dart
-RateInStore.rate(appID: '')
+RateInStore.rate(iOSAppID: 'id2343214123', androidAppID: 'com.xxx.xxx');
 ```
 
 # On iOS
