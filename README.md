@@ -1,6 +1,20 @@
+<!--
+ * @Author: Brant
+ * @Date: 2020-01-08 15:46:36
+ * @LastEditors  : Brant
+ * @LastEditTime : 2020-01-08 17:12:08
+ * @Description: 
+ -->
 # rate_in_store
 
 A Flutter rate plugin.
+
+# Install
+
+```
+dependencies:
+  rate_in_store: ^0.0.1
+```
 
 # How to use
 
